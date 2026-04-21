@@ -199,8 +199,26 @@
 </a>
 
 <div class="cookie-banner" id="cookieBanner">
-  Este site utiliza cookies. <button onclick="acceptCookies()">Aceitar</button>
+  Este site utiliza cookies para melhorar sua experiência. 
+  <a href="politica.html" target="_blank" style="color:#fff; text-decoration:underline;">
+    Ver Política de Privacidade
+  </a>
+  
+  <button onclick="acceptCookies()">Aceitar</button>
 </div>
+
+<script>
+function acceptCookies() {
+  localStorage.setItem("cookiesAccepted", "true");
+  document.getElementById("cookieBanner").style.display = "none";
+}
+
+window.onload = function() {
+  if (localStorage.getItem("cookiesAccepted") === "true") {
+    document.getElementById("cookieBanner").style.display = "none";
+  }
+};
+</script>
 
 <script>
 function acceptCookies() {
