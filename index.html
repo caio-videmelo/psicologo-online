@@ -4,14 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://caio-videmelo.github.io/psicologo-online/">
-  <meta name="author" content="Caio Vinícius Infante de Melo">
-  
-  <!-- SEO -->
-  <title>Psicólogo Online | Caio Vinícius Infante de Melo</title>
-  <meta name="description" content="Psicólogo online para adultos. Atendimento psicodinâmico. CRP 06/129237. Agende sua sessão.">
 
-  <!-- Open Graph (WhatsApp preview) -->
+  <link rel="canonical" href="https://caio-videmelo.github.io/psicologo-online/">
+
+  <meta name="author" content="Caio Vinícius Infante de Melo">
+
+  <!-- SEO -->
+  <title>Psicólogo Online em São Paulo | Caio Vinícius Infante de Melo</title>
+
+  <meta
+    name="description"
+    content="Psicólogo online para adultos. Atendimento psicodinâmico para ansiedade, relações, sofrimento emocional e conflitos subjetivos. CRP 06/129237."
+  >
+
+  <!-- Open Graph -->
   <meta property="og:title" content="Psicólogo Online – Caio Vinícius Infante de Melo">
   <meta property="og:description" content="Atendimento psicológico online para adultos.">
   <meta property="og:image" content="https://caio-videmelo.github.io/psicologo-online/SUA_IMAGEM_AQUI.jpeg">
@@ -21,34 +27,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
   <style>
+
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
       background-color: #EDE6DF;
       color: #3A2F2A;
     }
-    .final-section {
-  text-align: center;
-  margin-top: 60px;
-}
 
-.final-image img {
-  width: 220px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.final-name {
-  font-size: 14px;
-  color: #5a4f49;
-  margin-bottom: 25px;
-}
-
-.final-text {
-  max-width: 600px;
-  margin: 0 auto 16px auto;
-  line-height: 1.6;
-}
     .container {
       max-width: 900px;
       margin: auto;
@@ -58,6 +44,7 @@
     h1 {
       font-size: 32px;
       text-align: center;
+      line-height: 1.3;
     }
 
     h2 {
@@ -66,7 +53,8 @@
     }
 
     p {
-      line-height: 1.6;
+      line-height: 1.7;
+      font-size: 17px;
     }
 
     .hero {
@@ -79,47 +67,91 @@
       margin-bottom: 20px;
     }
 
-.cta {
-  display: block;
-  width: fit-content;
-  margin: 24px auto 0 auto;
-  background: #3A2F2A;
-  color: white;
-  padding: 14px 28px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-}
+    .cta {
+      display: block;
+      width: fit-content;
+      margin: 24px auto 0 auto;
+      background: #3A2F2A;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      transition: 0.3s;
+    }
 
-.cta:hover {
-  background: black;
-}
+    .cta:hover {
+      background: black;
+    }
 
     .badges {
       margin-top: 20px;
       font-size: 14px;
+      line-height: 1.6;
     }
 
     .section {
+      margin-top: 50px;
+    }
+
+    .final-section {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .final-image {
+      text-align: center;
       margin-top: 40px;
     }
-.final-image {
-  text-align: center;
-  margin-top: 40px;
-}
 
-.final-image img {
-  width: 220px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
+    .final-image img {
+      width: 220px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
 
-.final-image p {
-  font-size: 14px;
-  color: #5a4f49;
-}
-    /* Botão flutuante */
+    .final-name {
+      font-size: 14px;
+      color: #5a4f49;
+      margin-bottom: 25px;
+    }
+
+    .final-text {
+      max-width: 600px;
+      margin: 0 auto 16px auto;
+      line-height: 1.7;
+    }
+
+    /* Doctoralia */
+
+    .doctoralia-card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 25px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .doctoralia-badge {
+      display: inline-block;
+      background: #00C3A5;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 15px;
+      transition: 0.3s;
+    }
+
+    .doctoralia-badge:hover {
+      opacity: 0.9;
+    }
+
+    /* WhatsApp flutuante */
+
     .whatsapp-float {
       position: fixed;
       bottom: 20px;
@@ -131,9 +163,11 @@
       text-decoration: none;
       font-weight: bold;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      z-index: 999;
     }
 
     /* Cookies */
+
     .cookie-banner {
       position: fixed;
       bottom: 0;
@@ -143,6 +177,7 @@
       padding: 15px;
       text-align: center;
       font-size: 14px;
+      z-index: 1000;
     }
 
     .cookie-banner button {
@@ -154,61 +189,56 @@
       cursor: pointer;
       border-radius: 4px;
     }
+
+    /* Mobile */
+
     @media (max-width: 768px) {
-body {
-    padding-bottom: 80px; /* evita sobreposição com botão flutuante */
-  }
 
-  .container {
-    padding: 30px 18px;
-  }
+      body {
+        padding-bottom: 80px;
+      }
 
-  h1 {
-    font-size: 26px;
-    line-height: 1.3;
-  }
+      .container {
+        padding: 30px 18px;
+      }
 
-  h2 {
-    font-size: 20px;
-  }
+      h1 {
+        font-size: 26px;
+      }
 
-  p {
-    font-size: 16px;
-  }
+      h2 {
+        font-size: 22px;
+      }
 
-  .hero img {
-    width: 180px;
-  }
+      p {
+        font-size: 16px;
+      }
 
-  .final-image img {
-    width: 180px;
-  }
+      .hero img,
+      .final-image img {
+        width: 180px;
+      }
 
-  .final-text {
-    font-size: 16px;
-    padding: 0 5px;
-  }
+      .cta {
+        width: 100%;
+        max-width: 320px;
+        font-size: 16px;
+        padding: 16px;
+        border-radius: 8px;
+      }
 
-  .cta {
-    width: 100%;
-    max-width: 320px;
-    font-size: 16px;
-    padding: 16px;
-    border-radius: 8px;
-  }
+      .doctoralia-card {
+        padding: 22px;
+      }
 
-  .whatsapp-float {
-    bottom: 15px;
-    right: 15px;
-    padding: 12px 16px;
-    font-size: 14px;
-  }
+      .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+        padding: 12px 16px;
+        font-size: 14px;
+      }
 
-  .badges {
-    line-height: 1.6;
-  }
-
-}
+    }
 
   </style>
 </head>
@@ -217,111 +247,210 @@ body {
 
 <div class="container">
 
+  <!-- HERO -->
+
   <div class="hero">
+
     <img src="SUA_IMAGEM_AQUI.jpeg" alt="Psicólogo Caio Vinícius Infante de Melo">
 
     <h1>Psicólogo online para adultos</h1>
 
-    <p><strong>Caio Vinícius Infante de Melo – Psicólogo – CRP 06/129237</strong></p>
+    <p>
+      <strong>
+        Caio Vinícius Infante de Melo – Psicólogo – CRP 06/129237
+      </strong>
+    </p>
 
-    <p>Atendimento online com abordagem psicodinâmica.</p>
+    <p>
+      Atendimento online com abordagem psicodinâmica.
+    </p>
 
-    <a class="cta" href="https://wa.me/message/4GM4INHEV3AOP1" target="_blank">
+    <a
+      class="cta"
+      href="https://wa.me/message/4GM4INHEV3AOP1"
+      target="_blank"
+    >
       Agendar sessão pelo WhatsApp
     </a>
 
     <div class="badges">
-      ✔ Sessões de 50 minutos ✔ Atendimento online ✔ Sigilo garantido
+      ✔ Sessões de 50 minutos <br>
+      ✔ Atendimento online <br>
+      ✔ Sigilo garantido
     </div>
+
   </div>
 
+  <!-- INTRO -->
+
   <div class="section">
+
     <p>
-      Nem sempre é fácil explicar o que está acontecendo. Às vezes, o sofrimento aparece como ansiedade,
-      conflitos nas relações ou uma sensação de impasse.
+      Nem sempre é fácil explicar o que está acontecendo. Às vezes,
+      o sofrimento aparece como ansiedade, conflitos nas relações
+      ou uma sensação de impasse.
     </p>
 
     <p>
-      A psicoterapia pode ser um espaço para tratar essas questões de forma consistente. Não apenas para aliviar sintomas,
+      A psicoterapia pode ser um espaço para tratar essas questões
+      de forma consistente. Não apenas para aliviar sintomas,
       mas para compreender o que os sustenta.
     </p>
+
   </div>
 
+  <!-- COMO FUNCIONA -->
+
   <div class="section">
+
     <h2>Como funciona o atendimento</h2>
 
     <p>
-      O atendimento é realizado online, em sessões individuais de 50 minutos.
-      A frequência e os honorários são definidos em conjunto, a partir da avaliação clínica de cada caso.
+      O atendimento é realizado online, em sessões individuais
+      de 50 minutos. A frequência e os honorários são definidos
+      em conjunto, a partir da avaliação clínica de cada caso.
     </p>
 
     <p>
       O sigilo profissional orienta todo o processo terapêutico.
     </p>
+
   </div>
 
+  <!-- SOBRE -->
+
   <div class="section">
+
     <h2>Sobre o psicólogo</h2>
 
-    <p><strong>Caio Vinícius Infante de Melo – Psicólogo – CRP 06/129237</strong></p>
+    <p>
+      <strong>
+        Caio Vinícius Infante de Melo – Psicólogo – CRP 06/129237
+      </strong>
+    </p>
 
     <p>
-      Psicólogo formado pela UNIFESP e mestre pela USP, com mais de 10 anos de experiência profissional.
-      Atua como Especialista Técnico no Conselho Regional de Psicologia de São Paulo.
+      Psicólogo formado pela UNIFESP e mestre pela USP,
+      com mais de 10 anos de experiência profissional.
+      Atua como Especialista Técnico no Conselho Regional
+      de Psicologia de São Paulo.
     </p>
+
   </div>
 
+  <!-- ABORDAGEM -->
+
   <div class="section">
+
     <h2>Sobre a abordagem</h2>
 
     <p>
-      O trabalho se orienta pela perspectiva psicodinâmica, focando em conflitos e modos de relação
-      que atravessam a experiência subjetiva.
+      O trabalho se orienta pela perspectiva psicodinâmica,
+      focando em conflitos e modos de relação que atravessam
+      a experiência subjetiva.
     </p>
-  </div>
-<div class="final-section">
 
-  <div class="final-image">
-    <img src="./SUA_OUTRA_IMAGEM.jpeg" alt="Psicólogo Caio Vinícius Infante de Melo">
-
-    <p class="final-name">
-      Caio Vinícius Infante de Melo – Psicólogo – CRP 06/129237
-    </p>
   </div>
 
-  <p class="final-text">
-    Iniciar um processo terapêutico não é uma decisão qualquer.  
-    Trata-se de abrir um espaço para falar, escutar e sustentar questões que, muitas vezes, não encontram lugar.
-  </p>
+  <!-- DOCTORALIA -->
 
-  <p class="final-text">
-  <strong>Se isso faz sentido para você neste momento, o primeiro passo pode ser uma conversa.</strong>
-</p>
+  <div class="section">
 
-  <a class="cta" href="https://wa.me/message/4GM4INHEV3AOP1" target="_blank">
-    Agendar sessão pelo WhatsApp
-  </a>
+    <h2>Perfil profissional na Doctoralia</h2>
+
+    <div class="doctoralia-card">
+
+      <p>
+        Você também pode acessar meu perfil profissional
+        na Doctoralia para visualizar informações sobre
+        atendimento, disponibilidade e avaliações.
+      </p>
+
+      <a
+        class="doctoralia-badge"
+        href="https://www.doctoralia.com.br/caio-vinicius-infante-de-melo/psicologo/sao-paulo"
+        target="_blank"
+      >
+        Ver perfil na Doctoralia
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- FINAL -->
+
+  <div class="final-section">
+
+    <div class="final-image">
+
+      <img src="./SUA_OUTRA_IMAGEM.jpeg" alt="Psicólogo Caio Vinícius Infante de Melo">
+
+      <p class="final-name">
+        Caio Vinícius Infante de Melo – Psicólogo – CRP 06/129237
+      </p>
+
+    </div>
+
+    <p class="final-text">
+      Iniciar um processo terapêutico não é uma decisão qualquer.
+      Trata-se de abrir um espaço para falar, escutar e sustentar
+      questões que, muitas vezes, não encontram lugar.
+    </p>
+
+    <p class="final-text">
+      <strong>
+        Se isso faz sentido para você neste momento,
+        o primeiro passo pode ser uma conversa.
+      </strong>
+    </p>
+
+    <a
+      class="cta"
+      href="https://wa.me/message/4GM4INHEV3AOP1"
+      target="_blank"
+    >
+      Agendar sessão pelo WhatsApp
+    </a>
+
+  </div>
 
 </div>
-</div>
 
-<a class="whatsapp-float" href="https://wa.me/message/4GM4INHEV3AOP1" target="_blank">
+<!-- WhatsApp -->
+
+<a
+  class="whatsapp-float"
+  href="https://wa.me/message/4GM4INHEV3AOP1"
+  target="_blank"
+>
   WhatsApp
 </a>
 
+<!-- Cookies -->
+
 <div class="cookie-banner" id="cookieBanner">
-  Este site não utiliza cookies e não realiza coleta automatizada de dados de navegação. 
-  <a href="politica.html" target="_blank" style="color:#fff; text-decoration:underline;">
+
+  Este site não utiliza cookies e não realiza coleta automatizada de dados de navegação.
+
+  <a
+    href="politica.html"
+    target="_blank"
+    style="color:#fff; text-decoration:underline;"
+  >
     Ver Política de Privacidade
   </a>
 
   <button onclick="acceptCookies()">OK</button>
+
 </div>
 
 <script>
+
 function acceptCookies() {
   document.getElementById("cookieBanner").style.display = "none";
 }
+
 </script>
 
 </body>
